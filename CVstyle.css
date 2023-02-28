@@ -1,0 +1,59 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(238, 157, 157);
+    font-family:'lato';
+    font-size: 16px;
+}
+
+.portada{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+header{
+    background-image: url('portada.png');
+    background-size: 1000px 1000px;
+    height:600px;    
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: cover;
+}
+header .contenido-header{
+    margin:120px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+header .contenido-header .titulo-portada{
+    font-size: 120px;
+    text-align: center;
+    color: rgb(219, 198, 198);
+    text-align: center;
+}
+
+header .contenido-header .linea-divicion{
+    width: 700px;
+    margin: auto;
+    height:2px;
+    background: #b32525;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+header .contenido-header .texto-header{
+    color:rgb(121, 92, 92);
+    font-weight: 300;
+    margin-bottom:30px;
+    font-size:20px;
+    text-align: center;
+}
